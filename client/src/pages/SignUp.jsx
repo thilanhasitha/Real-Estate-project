@@ -6,6 +6,7 @@ export default function SignUp() {
     const [formData,setFormData] = useState({})
     const handleChange = (e)=>{
      setFormData({
+        //spread function
         ...formData,
         [e.target.id]: e.target.value,
      });
